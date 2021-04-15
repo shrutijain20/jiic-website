@@ -1,0 +1,78 @@
+
+
+/*@media (max-width: 997px){
+    .hover-bg .hover-text {
+        padding: 22% 10%;
+    }
+    
+    #team .item{
+        
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 650px){
+.hover-bg .hover-text {
+    padding: 22% 10%;
+}
+*/
+#team .item{
+    float: none;
+    width: 50%;
+}
+
+.section-title{
+    color:#505050;
+    font-size: 40px;
+}
+.about{
+    padding-top:158px;
+	font-family: 'IM Fell Double Pica', serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #505050;
+    background-color: rgb(196,200,202);
+}
+.content-about{
+    padding-top: 30px;
+}
+.img-respnosive-about{
+    width: 100%;
+    height: auto;
+}
+.jiic-ab-container
+{
+    margin-left: 20px;
+    display:flex;
+    
+}
+/* About Section */
+.about-intro{
+    color:#505050;
+    font-size: 24px;
+    padding-right:10px;
+    line-height: 35px;
+}
+#tf-about{
+	padding: 80px 0;	
+}
+ul.about-list{ 
+    margin: 30px 0 0 ;
+    
+}
+ul.about-list li{
+	display: block;
+	font-size: 22px;
+	line-height: 35px;
+	
+}
+ul.about-list li span{ 
+	margin-right: 6px;
+}
+@media only screen and (max-width: 1500px) {
+    .jiic-ab-container {
+      flex-direction: column;
+    }
+}
